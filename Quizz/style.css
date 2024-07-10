@@ -1,0 +1,165 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+
+#container{
+
+    height: 100%;
+    background-color: #78459E; 
+
+}
+
+
+#topoTitulo{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    background-color:#78459E;
+
+}
+
+
+
+#meioPerguntas{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    height: 23%;
+    background-color:#78459E;
+    align-items: center;
+    gap: 5%
+
+}
+
+.Pergunta1{
+    border: 1px solid #C8BFE7;
+    padding: 2%;
+    color:rgb(34, 34, 34);
+    background-color: white;
+}
+
+.P1{
+    border: 1px  #C8BFE7;
+    background-color:#78459E ;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.Pergunta2{
+    border: 1px #C8BFE7;
+    padding: 2%;
+    color:rgb(34, 34, 34);
+    background-color: white;
+}
+
+.P2{
+    border: 1px  #C8BFE7;
+    background-color:#78459E;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.Pergunta3{
+    border: 1px #C8BFE7;
+    padding: 2%;
+    color:rgb(34, 34, 34);
+    background-color: white;
+}
+
+.P3{
+    border: 1px #C8BFE7;
+    background-color: #78459E;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+#meioLabels{
+    display: flex;
+    justify-content: space-around;
+    height: 7%;
+    background-color:#78459E;
+    align-items: center;
+    color: white;
+}
+
+#Perguntas1{
+    width: 300px;
+    height: 55px; 
+
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #C8BFE7;
+}
+
+#Perguntas2{
+    width: 300px;
+    height: 55px; 
+    
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #C8BFE7;
+}
+
+#Perguntas3{
+    width: 300px;
+    height: 55px; 
+
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #C8BFE7;
+
+} 
+
+.pontuacao{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#meioSelects{
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+    background-color:#78459E;
+}
+
+#baixoResultado{
+    background-color: #78459E;
+    display:block;
+    color: white;
+    font-size: xx-large;
+}
+
+input{
+    width: 100px;
+    height: 50px;
+}
+button{
+    color:rgb(34, 34, 34);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-color:#C8BFE7;
+    width: 250px;
+    height: 55px;
+
+}

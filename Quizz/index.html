@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            
+            <img src="header.png">
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+            <div class="Pergunta1">
+               <div class="P1"> 
+                <label> Pergunta 1 </label> <br>
+                </div> 
+                <label> Qual o ano de lançamento de Rick & Morti? </label>
+            </div>
+
+            <div class="Pergunta2">
+                <div class='P2'> 
+                <label> Pergunta 2 </label> <br>
+                </div>
+                <label> Stray é um jogo indie estrelado por qual animal? </label>
+            </div>
+
+            <div class="Pergunta3">
+                <div class='P3'> 
+                <label> Pergunta 3 </label> <br>
+                </div>
+                <label> O gabito da Rainha é uma série sobre qual esporte? </label>
+            </div>
+
+
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+          
+           <label> Escolha sua Resposta </label>
+           
+           <label> Escolha sua Resposta </label>
+           
+           <label> Escolha sua Resposta </label>
+            
+
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+            <form> 
+            <select id="Perguntas1" class="Informativo"> 
+                <option value="3" disable selected hidden> Resposta </option>
+                <option value="0"> 2020 </option>
+                <option value="0"> 2016 </option>
+                <option value="1"> 2013 </option>
+            </select>
+            </form>
+
+            <form> 
+            <select id="Perguntas2" class="Informativo"> 
+                <option value="3" disable selected hidden> Resposta </option>
+                <option value="1"> Gato </option>
+                <option value="0"> Cachorro </option>
+                <option value="0"> Cavalo </option>
+            </select>
+            </form>
+
+
+            <form> 
+            <select id="Perguntas3" class="Informativo">
+                <option value="3" disable selected hidden> Resposta </option> 
+                <option value="0"> Futebol </option>
+                <option value="1"> Xadrez </option>
+             <option value="0"> Hockey </option>
+            </select>
+            </form>
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+            <div class="pontuacao">
+
+                <img src='icone-esquerda.png'>
+
+                <label> Sua pontuação: </label>
+                <input id='Pontuação' readonly>
+
+                <button onclick="FinalizarQuiz()"> Finalizar Quiz! </button>
+
+                <img src='icone-direita.png'> 
+
+            </div>
+        </div>
+    </div>
+ 
+    <script src="file.js"></script>
+
+</body>
+</html>
